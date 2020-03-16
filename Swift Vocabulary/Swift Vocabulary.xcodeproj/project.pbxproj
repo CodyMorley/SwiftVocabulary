@@ -13,6 +13,8 @@
 		5E27B45724200B5F00F60F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E27B45524200B5F00F60F19 /* Main.storyboard */; };
 		5E27B45924200B6600F60F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E27B45824200B6600F60F19 /* Assets.xcassets */; };
 		5E27B45C24200B6600F60F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E27B45A24200B6600F60F19 /* LaunchScreen.storyboard */; };
+		5E27B464242013CA00F60F19 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27B463242013CA00F60F19 /* WordsTableViewController.swift */; };
+		5E27B4662420145200F60F19 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27B4652420145200F60F19 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5E27B45824200B6600F60F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E27B45B24200B6600F60F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E27B45D24200B6600F60F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E27B463242013CA00F60F19 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		5E27B4652420145200F60F19 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5E27B44F24200B5F00F60F19 /* AppDelegate.swift */,
+				5E27B463242013CA00F60F19 /* WordsTableViewController.swift */,
+				5E27B4652420145200F60F19 /* DefinitionViewController.swift */,
 				5E27B45124200B5F00F60F19 /* SceneDelegate.swift */,
 				5E27B45324200B5F00F60F19 /* ViewController.swift */,
 				5E27B45524200B5F00F60F19 /* Main.storyboard */,
@@ -141,6 +147,8 @@
 				5E27B45424200B5F00F60F19 /* ViewController.swift in Sources */,
 				5E27B45024200B5F00F60F19 /* AppDelegate.swift in Sources */,
 				5E27B45224200B5F00F60F19 /* SceneDelegate.swift in Sources */,
+				5E27B464242013CA00F60F19 /* WordsTableViewController.swift in Sources */,
+				5E27B4662420145200F60F19 /* DefinitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
