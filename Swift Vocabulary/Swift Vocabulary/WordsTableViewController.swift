@@ -2,7 +2,7 @@
 //  WordsTableViewController.swift
 //  Swift Vocabulary
 //
-//  Created by Bling Morley on 3/16/20.
+//  Created by Cody Morley on 3/16/20.
 //  Copyright © 2020 Cody. All rights reserved.
 //
 

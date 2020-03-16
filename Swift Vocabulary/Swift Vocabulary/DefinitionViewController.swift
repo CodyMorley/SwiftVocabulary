@@ -2,7 +2,7 @@
 //  DefinitionViewController.swift
 //  Swift Vocabulary
 //
-//  Created by Bling Morley on 3/16/20.
+//  Created by Cody Morley on 3/16/20.
 //  Copyright © 2020 Cody. All rights reserved.
 //
 
@@ -16,7 +16,9 @@ class DefinitionViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var Word: UILabel!
+    
+    @IBOutlet weak var Definition: UITextView!
     /*
     // MARK: - Navigation
 
