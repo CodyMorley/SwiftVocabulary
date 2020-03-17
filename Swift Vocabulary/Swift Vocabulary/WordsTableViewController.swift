@@ -10,7 +10,8 @@ import UIKit
 
 class WordsTableViewController: UITableViewController {
 
-    var vocabWords: [VocabularyWord]
+    var vocabWords: [VocabularyWord] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +52,9 @@ class WordsTableViewController: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowDefinitionSegue" {
-            
+            guard let vocabDetailVC = segue.destination as? DefinitionViewController else { return }
+            guard let indexPath = tableView.indexPathForSelectedRow else { return }
+            vocabDetailVC.vocabWord = vocabWords[indexPath.row]
         }
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
