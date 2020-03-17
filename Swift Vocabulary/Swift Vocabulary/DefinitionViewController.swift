@@ -14,14 +14,14 @@ class DefinitionViewController: UIViewController {
     
     func updateViews() {
         if let word = vocabWord {
-            word.word = Word.text
-            word.definition = Definition.text
+            Word.text = word.word
+            Definition.text = word.definition
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateViews()
         // Do any additional setup after loading the view.
     }
     

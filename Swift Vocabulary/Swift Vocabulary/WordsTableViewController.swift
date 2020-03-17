@@ -10,7 +10,7 @@ import UIKit
 
 class WordsTableViewController: UITableViewController {
 
-    var vocabWords: [VocabularyWord] = []
+    var vocabWords: [VocabularyWord] = [VocabularyWord(word: "var", definition: "a variable value."), VocabularyWord(word: "let", definition: "a keyword for a constant value.")]
     
     
     override func viewDidLoad() {
